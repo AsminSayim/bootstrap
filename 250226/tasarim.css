@@ -1,0 +1,27 @@
+body{
+    background: url(img/bg2.jpg);
+    background-repeat: no-repeat;/*Arka planın tekrar etmesini engeller, yani resim sadece bir kez görünür.*/
+    background-size: cover;/*Arka planın, ekran boyutuna göre ölçeklenip, tüm alanı kaplamasını sağlar, böylece resim kesilmeden görünür.*/
+}
+
+.nav-link{
+    color: #fd79a8;
+}
+
+.border-pink{
+    border-color: #ef619f !important;/*en son bu kodu kullanır*/
+}
+
+.active{
+    color: #fff;
+    background-color: #ef619f;
+}
+
+.text-bg-pink{
+    background-color: #ef619f45;
+}
+
+.card-title{
+    color: #fff;
+    background-color: #ef619f94;
+}
